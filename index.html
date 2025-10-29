@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petualangan Jihan - Tangkap Bintang!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌈 Petualangan Jihan 🌈</h1>
+  <div id="scoreboard">Skor: 0</div>
+  <div id="timer">Waktu: 30</div>
+
+  <div id="gameContainer">
+    <div id="jihan"></div>
+    <div id="gameOver"></div>
+  </div>
+
+  <div id="controls">
+    <button id="leftBtn">⬅️</button>
+    <button id="rightBtn">➡️</button>
+  </div>
+
+  <button id="startBtn" onclick="startGame()">Mulai Game</button>
+
+  <audio id="catchSound" 
+    src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_b4a3fb0f86.mp3?filename=collectcoin-6075.mp3">
+  </audio>
+
+  <audio id="specialSound"
+    src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_7d1444b6c1.mp3?filename=game-win-arcade-6345.mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
